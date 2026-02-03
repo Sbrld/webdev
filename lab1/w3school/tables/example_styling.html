@@ -1,0 +1,47 @@
+<!--
+HTML Table - Zebra Stripes
+If you add a background color on every other table row, you will get a nice zebra stripes effect.
+
+To style every other table row element, use the :nth-child(even) selector like this:
+
+Example
+-->
+<style>
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+</style>
+
+<!--
+HTML Table - Vertical Zebra Stripes
+To make vertical zebra stripes, style every other column, instead of every other row.
+
+Set the :nth-child(even) for table data elements like this:
+
+Example
+-->
+<style>
+td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+</style>
+
+<!--
+Combine Vertical and Horizontal Zebra Stripes
+You can combine the styling from the two examples above and you will have stripes on every other row and every other column.
+
+If you use a transparent color you will get an overlapping effect.
+	 	 	 	 	 	 	 	 
+Use an rgba() color to specify the transparency of the color:
+
+Example
+-->
+<style>
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+</style>
