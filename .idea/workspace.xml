@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0250ebe-d4e0-48df-8e19-6b74d3d4664f" name="Changes" comment="github">
+    <list default="true" id="e0250ebe-d4e0-48df-8e19-6b74d3d4664f" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aldo\WebstormProjects\untitled1\lab3\javascript_tutorial" />
       <recent name="C:\Users\Aldo\WebstormProjects\untitled1\lab2" />
     </key>
   </component>
@@ -90,6 +91,10 @@
       <workItem from="1770194158745" duration="63000" />
       <workItem from="1770199089652" duration="124000" />
       <workItem from="1770199934894" duration="364000" />
+      <workItem from="1770206378213" duration="4434000" />
+      <workItem from="1770641181589" duration="77000" />
+      <workItem from="1770693405184" duration="6633000" />
+      <workItem from="1770796434941" duration="1409000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <option name="closed" value="true" />
@@ -123,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770190714477</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <option name="closed" value="true" />
+      <created>1770206580429</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770206580429</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +169,7 @@
     <MESSAGE value="test1" />
     <MESSAGE value="lab2" />
     <MESSAGE value="github" />
-    <option name="LAST_COMMIT_MESSAGE" value="github" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
