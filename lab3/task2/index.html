@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>ToDo List</h1>
+</header>
+<h1 class = "logo">ToDo List</h1>
+<main class="container">
+    <form id="todo-form" class="todo-form">
+        <label for="todo-input">New Task</label>
+        <div class="input-group">
+            <input
+                    type="text"
+                    id="todo-input"
+                    placeholder="Enter a task..."
+                    required
+            >
+            <button type="submit">Add</button>
+        </div>
+    </form>
+
+    <ul id="todo-list" class="todo-list">
+        <li class="todo-item">
+            <div class="todo-left">
+                <input type="checkbox" class="todo-checkbox">
+                <span class="todo-text">First item</span>
+            </div>
+            <button class="delete-btn">Delete</button>
+        </li>
+        <li class="todo-item">
+            <div class="todo-left">
+                <input type="checkbox" class="todo-checkbox">
+                <span class="todo-text">Second item</span>
+            </div>
+            <button class="delete-btn">Delete</button>
+        </li>
+        <li class="todo-item">
+            <div class="todo-left">
+                <input type="checkbox" class="todo-checkbox">
+                <span class="todo-text">Third item</span>
+            </div>
+            <button class="delete-btn">Delete</button>
+        </li>
+    </ul>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
