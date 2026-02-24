@@ -1,90 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0250ebe-d4e0-48df-8e19-6b74d3d4664f" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/lab4/task1/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/.vscode/mcp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/app.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/app.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/app.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/car.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/car2.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/child.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/comments.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/home/home.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/home/user/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/reverse.pipe.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task1.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task10_app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task11_app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task12_app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task13_app.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task13_app.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task13_app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task14_app.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task15_app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task16.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task17.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task18.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task19.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task2.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task20_app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task21_app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task22_app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task23_app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task24_app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task3.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task4.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task5.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task6.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task7.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task8.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/task9_app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/app/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task1/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/.vscode/mcp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/src/app/app.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/src/app/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/src/app/app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/src/app/app.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/src/app/app.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/src/app/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/src/app/data/product.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/src/app/models/product.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/online-store/tsconfig.spec.json" afterDir="false" />
+    <list default="true" id="e0250ebe-d4e0-48df-8e19-6b74d3d4664f" name="Changes" comment="lab4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task2/online-store/src/app/components/product-list/product-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/online-store/src/app/components/product-list/product-list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +112,7 @@
       <workItem from="1771429163342" duration="55000" />
       <workItem from="1771429225216" duration="373000" />
       <workItem from="1771838114893" duration="3125000" />
-      <workItem from="1771908258165" duration="8593000" />
+      <workItem from="1771908258165" duration="9873000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <option name="closed" value="true" />
@@ -251,7 +170,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770798179545</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lab4">
+      <option name="closed" value="true" />
+      <created>1771918938697</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771918938697</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lab4">
+      <option name="closed" value="true" />
+      <created>1771919170593</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1771919170593</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +220,7 @@
     <MESSAGE value="lab2" />
     <MESSAGE value="github" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="lab4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab4" />
   </component>
 </project>
