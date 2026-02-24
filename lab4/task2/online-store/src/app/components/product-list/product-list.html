@@ -1,0 +1,20 @@
+<div clas="page">
+  <header class="header">
+    <h1>Online Store</h1>
+    <p>Каталог товаров (Kaspi.kz) - 10 позиции, галерея, можно поделиться.</p>
+
+    <div class="for-fancy">
+      <a href="https://www.youtube.com/watch?v=o7uDERvtqhc" target="_blank">О нас </a>
+      <a href="#" target="_blank">Поддержать нас </a>
+      <a href="#" target="_blank">Написать отзыв</a>
+    </div>
+
+    <hr class="hor">
+  </header>
+
+  <section class="grid">
+    @for (p of products; track p.id) {
+      <app-product-card [product]="p" />
+    }
+  </section>
+</div>
