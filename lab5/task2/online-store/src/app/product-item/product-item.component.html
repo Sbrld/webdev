@@ -1,0 +1,50 @@
+<div class="card">
+  <a class="image" [href]="product().link" target="_blank" rel="noopener noreferrer">
+    <img [src]="selectedImage" [alt]="product().name" />
+  </a>
+
+  <div class="thumbs">
+    @for (img of product().images; track img) {
+      <button class="thumb" type="button" (click)="setImage(img)" [class.active]="img === selectedImage">
+        <img [src]="img" alt="thumb" />
+      </button>
+    }
+  </div>
+
+  <div class="content">
+    <h3 class="title">
+      <a [href]="product().link" target="_blank" rel="noopener noreferrer">{{ product().name }}</a>
+    </h3>
+
+    <p class="desc">{{ product().description }}</p>
+
+    <div class="meta">
+      <div class="price">{{ product().price | number }} ₸</div>
+
+      <div class="rating" [title]=" 'Rating: ' + product().rating">
+        <span class="badge">{{ product().rating }}</span>
+        <span class="stars">
+                    @for (s of getStars(); track $index) {
+                      <span class="star" [class.full]="s==='full'" [class.half]="s==='half'">
+                            <span class="base">★</span>
+                            <span class="fill">★</span>
+                        </span>
+                    }
+                </span>
+      </div>
+    </div>
+
+    <span class="likes"> ❤ {{ product().likes }}</span>
+  </div>
+
+  <div class="actions">
+    <button type="button" class="WhatsApp" (click)="shareWhatsApp()">Share WhatsApp</button>
+    <button type="button" class="Telegram" (click)="shareTelegram()">Share Telegram</button>
+    <a class="kaspi" [href]="product().link" target="_blank" rel="noopener noreferrer">Open on Kaspi</a>
+  </div>
+
+  <div class="other-actions">
+    <button type="button" class="likeee" (click)="like()">❤️</button>
+    <button type="button" class="danger" (click)="onDelete()">🗑️</button>
+  </div>
+</div>
