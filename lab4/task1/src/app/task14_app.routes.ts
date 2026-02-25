@@ -6,12 +6,12 @@ import {User} from './user';
 export const routes: Routes = [
   {
     path: '',
-    title: 'App Home Page',
+    title: 'AppComponent Home Page',
     component: Home,
   },
   {
     path: 'user',
-    title: 'App User Page',
+    title: 'AppComponent User Page',
     component: User,
   },
 ];

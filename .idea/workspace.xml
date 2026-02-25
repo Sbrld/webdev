@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0250ebe-d4e0-48df-8e19-6b74d3d4664f" name="Changes" comment="lab4">
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/.vscode/mcp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/src/app/app.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/src/app/app.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/src/app/app.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/src/app/models/category.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/src/app/models/product.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/task2/online-store/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task2/online-store/src/app/components/product-list/product-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/online-store/src/app/components/product-list/product-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task1/src/app/task14_app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task1/src/app/task14_app.routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +72,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "C:/Users/Aldo/WebstormProjects/untitled1/lab4/task2",
+    "last_opened_file_path": "C:/Users/Aldo/WebstormProjects/untitled1/lab5",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -66,15 +82,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aldo\WebstormProjects\untitled1\lab5" />
       <recent name="C:\Users\Aldo\WebstormProjects\untitled1\lab4\task2" />
       <recent name="C:\Users\Aldo\WebstormProjects\untitled1\lab4\task1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aldo\WebstormProjects\untitled1\lab5\task2\online-store\src\app\services" />
       <recent name="C:\Users\Aldo\WebstormProjects\untitled1\lab4\task2\online-store\src\app\components" />
       <recent name="C:\Users\Aldo\WebstormProjects\untitled1\lab4\task2" />
       <recent name="C:\Users\Aldo\WebstormProjects\untitled1\lab4\src\app" />
       <recent name="C:\Users\Aldo\WebstormProjects\untitled1\lab3\javascript_tutorial" />
-      <recent name="C:\Users\Aldo\WebstormProjects\untitled1\lab2" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -113,6 +130,8 @@
       <workItem from="1771429225216" duration="373000" />
       <workItem from="1771838114893" duration="3125000" />
       <workItem from="1771908258165" duration="9873000" />
+      <workItem from="1771931734362" duration="1030000" />
+      <workItem from="1772014185124" duration="1773000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <option name="closed" value="true" />
