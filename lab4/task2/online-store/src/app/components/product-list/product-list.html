@@ -1,7 +1,13 @@
 <div clas="page">
   <header class="header">
     <h1>Online Store</h1>
+    <span class="favorites-badge">❤️ {{ favoritesCount() }}</span>
     <p>Каталог товаров (Kaspi.kz) - 10 позиции, галерея, можно поделиться.</p>
+
+    <div class="view-toggle">
+      <button (click)="showFavoritesOnly.set(false)">All Products</button>
+      <button (click)="showFavoritesOnly.set(true)">Favorites</button>
+    </div>
 
     <div class="for-fancy">
       <a href="https://youtu.be/dQw4w9WgXcQ?si=JfHs7YuyjcahCt6S" target="_blank">О нас </a>
@@ -13,8 +19,19 @@
   </header>
 
   <section class="grid">
-    @for (p of products; track p.id) {
-      <app-product-card [product]="p" />
+    @for (p of displayedProducts(); track p.id) {
+      <div class="product-wrapper">
+        <app-product-card [product]="p" />
+        <button class="favorite-button" (click)="toggleFavorite(p.id)">
+          @if (isFavorite(p.id)) {
+            ❤️
+          } @else {
+            🤍
+          }
+        </button>
+      </div>
+    } @empty {
+      <p>No products to display</p>
     }
   </section>
 </div>
