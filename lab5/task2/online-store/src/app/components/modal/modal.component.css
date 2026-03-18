@@ -1,0 +1,54 @@
+.modal-backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  max-width: 600px;
+  border-radius: 5px;
+  padding: 50px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  justify-content: right;
+  background-color: transparent;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  transform: scale(1.2);
+}
+
+.modal-body {
+  display: flex;
+}
+
+.modal-body img {
+  justify-content: left;
+}
+
+.modal-body p {
+  justify-content: right;
+}
+
+.modal-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.modal-details {
+  padding: 50px;
+}
+
+
+

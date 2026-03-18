@@ -1,0 +1,26 @@
+@if (loading) {
+  <p class="muted">Loading...</p>
+} @else if (error) {
+  <p class="error">{{ error }}</p>
+} @else if (album) {
+  <h1>Album #{{ album.id }}</h1>
+
+  <div class="card">
+    <p><b>User ID:</b> {{ album.userId }}</p>
+    <p><b>Album ID:</b> {{ album.id }}</p>
+
+    <label class="label">
+      <span>Title</span>
+      <input [(ngModel)]="editedTitle" />
+    </label>
+
+    <div class="actions">
+      <button type="button" (click)="save()" [disabled]="saving">
+        {{ saving ? 'Saving...' : 'Save' }}
+      </button>
+
+      <button type="button" (click)="viewPhotos()">View Photos</button>
+      <button type="button" class="secondary" (click)="backToList()">Back</button>
+    </div>
+  </div>
+}

@@ -1,0 +1,18 @@
+<h1>Albums</h1>
+
+<p class="muted" *ngIf="loading">Loading...</p>
+
+<p class="error" *ngIf="!loading && error">{{ error }}</p>
+
+<ul class="list" *ngIf="!loading && !error">
+  <li class="item" *ngFor="let a of albums; trackBy: trackById" (click)="openAlbum(a.id)">
+    <div class="info">
+      <div class="id">#{{ a.id }}</div>
+      <div class="title">{{ a.title }}</div>
+    </div>
+
+    <button class="danger" type="button" (click)="deleteAlbum(a.id, $event)">
+      Delete
+    </button>
+  </li>
+</ul>

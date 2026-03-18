@@ -1,0 +1,13 @@
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

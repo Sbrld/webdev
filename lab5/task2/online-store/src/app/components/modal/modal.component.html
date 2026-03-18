@@ -1,0 +1,22 @@
+@if (isOpen()) {
+  <div class="modal-backdrop" (click)="onBackdropClick()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+
+      <button class="close-btn" (click)="onClose()">✕</button>
+
+      <div class="modal-body">
+        <div class="modal-image">
+          <!-- Product image -->
+        </div>
+
+        <div class="modal-details">
+          <!-- Product name, description, price, rating -->
+          <!-- Like button with count -->
+          <!-- Share buttons (WhatsApp/Telegram) -->
+          <!-- Link to kaspi.kz -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+}
