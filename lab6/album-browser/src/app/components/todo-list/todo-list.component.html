@@ -1,0 +1,77 @@
+<nav class="filters">
+  <a
+    class="filter"
+    [routerLink]="['/todos']"
+    [queryParams]="{}"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
+    All
+  </a>
+
+  <a
+    class="filter"
+    [routerLink]="['/todos']"
+    [queryParams]="{ status: 'completed' }"
+    routerLinkActive="active"
+  >
+    Completed
+  </a>
+
+  <a
+    class="filter"
+    [routerLink]="['/todos']"
+    [queryParams]="{ status: 'pending' }"
+    routerLinkActive="active"
+  >
+    Pending
+  </a>
+</nav>
+
+<div class="add-todo">
+  <input
+    #newTitle
+    class="add-input"
+    type="text"
+    placeholder="Add a todo and press Enter…"
+    (keyup.enter)="addTodo(newTitle.value); newTitle.value = ''"
+    aria-label="New todo title"
+  />
+  <button
+    class="add-btn"
+    type="button"
+    (click)="addTodo(newTitle.value); newTitle.value = ''"
+  >
+    Add
+  </button>
+</div>
+
+<p class="counter">Showing {{ showingCount }} of {{ totalCount }} todos</p>
+
+<ul class="todo-list">
+  <li
+    *ngFor="let todo of filteredTodos; trackBy: trackById"
+    class="todo"
+    [class.completed]="todo.completed"
+  >
+    <label class="todo-left">
+      <input
+        class="todo-checkbox"
+        type="checkbox"
+        [checked]="todo.completed"
+        (change)="toggleTodo(todo)"
+        aria-label="Toggle todo"
+      />
+      <span class="title">{{ todo.title }}</span>
+    </label>
+
+    <button
+      class="delete-btn"
+      type="button"
+      (click)="deleteTodo(todo)"
+      aria-label="Delete todo"
+    >
+      Delete
+    </button>
+  </li>
+</ul>

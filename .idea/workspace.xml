@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0250ebe-d4e0-48df-8e19-6b74d3d4664f" name="Changes" comment="lab7">
-      <change afterPath="$PROJECT_DIR$/lab7/lab_in_class/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/lab_in_class/main2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/lab_in_class/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/shop-back/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="510" />
+    <option name="cachedIndexableFilesCount" value="5347" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -98,7 +96,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Aldo\\WebstormProjects\\untitled1\\album-browser\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -199,7 +197,9 @@
       <workItem from="1773726435212" duration="1287000" />
       <workItem from="1773828153965" duration="1306000" />
       <workItem from="1773835251505" duration="2546000" />
-      <workItem from="1773837835508" duration="752000" />
+      <workItem from="1773837835508" duration="880000" />
+      <workItem from="1774359542218" duration="1803000" />
+      <workItem from="1774361368941" duration="1185000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <option name="closed" value="true" />
@@ -313,7 +313,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773828412913</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="lab7">
+      <option name="closed" value="true" />
+      <created>1773839043162</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1773839043162</updated>
+    </task>
+    <task id="LOCAL-00016" summary="lab7">
+      <option name="closed" value="true" />
+      <created>1773839115665</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1773839115665</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
